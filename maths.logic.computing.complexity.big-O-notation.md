@@ -2,7 +2,7 @@
 id: el4vn10duywyad1juduzr54
 title: big-O-notation
 desc: ''
-updated: 1732215255112
+updated: 1732215572492
 created: 1732215122026
 ---
 
@@ -48,3 +48,22 @@ For \(n = 8\), Merge Sort:
 ## Notes
 - Base of \(\log n\) is usually implied as 2 in computational contexts.
 - Big O ignores constants, so \(O(2n)\) simplifies to \(O(n)\).
+
+## Base of Logarithms in Big O
+
+In asymptotic analysis, the **base of the logarithm doesn’t matter** because of the change of base formula:
+
+\[
+\log_a(n) = \frac{\log_b(n)}{\log_b(a)}
+\]
+
+Since constant factors are ignored in Big O notation, whether the logarithm is base-2, base-10, or the natural log (\(\ln n\)), they all simplify to:
+
+\[
+O(\log n)
+\]
+
+### Example:
+- \(O(\log_2 n)\) and \(O(\log_{10} n)\) differ by a constant factor \(\frac{1}{\log_{10} 2}\), which is irrelevant in Big O.
+
+Thus, unless explicitly stated otherwise, Big O logarithms are typically assumed to be base-2 due to the binary nature of many algorithms.
