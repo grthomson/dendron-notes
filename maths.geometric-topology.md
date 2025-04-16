@@ -2,16 +2,21 @@
 id: 916k8rry6clk717ha9fdfqu
 title: Geometric Topology
 desc: ''
-updated: 1744743641492
+updated: 1744804965777
 created: 1744743002000
 ---
-##Topology of Manifolds / Simplicial Complexes / Absolute Neighbourhood Contracts
+#Topology of ...
 
-## Uses tools such as:
+## Topology of ...
+- Manifolds 
+- Simplicial Complexes 
+- Absolute Deformation Retracts
 
-### Surgery Theory (for classification of manifolds with Dimension > 4)
+## Characteristic tools:
 
-## Relevant theorems are:
+- Surgery Theory (for classification of manifolds with Dimension > 4)
 
-### Geometrization Conjecture
-### h-Cobordism theorem
+## Important Theorems:
+
+- Geometrization Conjecture
+- h-Cobordism Theorem
